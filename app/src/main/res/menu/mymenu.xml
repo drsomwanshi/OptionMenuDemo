@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/open"
+        android:icon="@drawable/cocsitlogo"
+        android:title="Open"
+
+        app:showAsAction="withText" />
+    <item
+        android:id="@+id/share"
+        android:title="Share" />
+
+    <item android:id="@+id/close"
+        android:title="Close"/>
+    <item android:id="@+id/show"
+        android:title="Show"/>
+
+    <item
+        android:id="@+id/action_more"
+        android:icon="@drawable/cocsitlogo"
+        android:title=""
+        app:showAsAction="always">
+    <menu>
+    <item
+        android:id="@+id/action_add_contact"
+        android:icon="@drawable/cocsitlogo"
+        android:title="Add contact"
+        app:showAsAction="always|withText" />
+    <item
+        android:id="@+id/action_settings"
+        android:icon="@drawable/cocsitlogo"
+        android:title="Settings"
+        app:showAsAction="always|withText" />
+    <item
+        android:id="@+id/action_about_us"
+        android:icon="@drawable/cocsitlogo"
+        android:title="About us"
+        app:showAsAction="always|withText" />
+    </menu>
+    </item>
+
+</menu>
+
